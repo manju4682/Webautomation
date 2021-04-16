@@ -145,5 +145,6 @@ if __name__ == '__main__':
     login(driver,username,pwd)
     get_followers(driver)
     get_following(driver)
+    driver.quit()
 
 
