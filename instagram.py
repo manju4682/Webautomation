@@ -140,8 +140,8 @@ def get_following(driver):
 if __name__ == '__main__':    
 
     driver  = webdriver.Chrome()
-    username = "#"
-    pwd = "#"
+    username = "# useranme"
+    pwd = "# password"
     login(driver,username,pwd)
     get_followers(driver)
     get_following(driver)
